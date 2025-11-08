@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 0 1rem;
+  }
+  #hamburger {
+    display: none;
+  }
+  #nav-menu {
+    display: flex !important;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+  .course-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  input, textarea, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  nav a.active {
+    border-bottom: 2px solid #00bfff;
+  }
+}
