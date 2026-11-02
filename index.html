@@ -2,13 +2,29 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibadan Chamber of Commerce</title>
 
-    <link rel="stylesheet" href="styles/commerce.css">
+    <meta name="description" content="WDD 231 Course Home Page">
 
-    <script defer src="scripts/commerce.js"></script>
+    <meta name="author" content="Adeoye">
+
+    <title>WDD 231 Home Page</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/small.css">
+
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script defer src="scripts/navigation.js"></script>
+
+    <script defer src="scripts/date.js"></script>
+
+    <script defer src="scripts/course.js"></script>
+
 </head>
 
 <body>
@@ -16,81 +32,86 @@
     <header>
 
         <div class="logo">
-            <h1>Ibadan Chamber of Commerce</h1>
-            <p>Supporting Local Businesses</p>
+
+            <img src="images/logo.png" alt="Website Logo">
+
+            <span>Adeoye</span>
+
         </div>
 
-        <button id="menuBtn">☰</button>
+        <button id="menuButton">
+            ☰
+        </button>
 
         <nav id="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Events</a>
-            <a href="#">Directory</a>
-            <a href="#">Join</a>
-            <a href="#">Contact</a>
-        </nav>
 
-        <button id="darkMode">🌙</button>
+            <a href="#" class="active">
+                Home
+            </a>
+
+            <a href="chamber/">
+                Chamber Project
+            </a>
+
+            <a href="#">
+                Final Project
+            </a>
+
+        </nav>
 
     </header>
 
     <main>
 
-        <section class="hero">
+        <h1>Home</h1>
 
-            <h2>IBADAN CHAMBER OF COMMERCE</h2>
+        <div class="content-grid">
 
-            <p>
-                Offering membership benefits
-                in three different levels.
-            </p>
+            <section class="card">
 
-            <h3>
-                CONNECTOR |
-                CATALYST |
-                CHAMPION
-            </h3>
+                <h2>About Me</h2>
 
-            <div class="hero-buttons">
+                <p>
+                    I am Adeoye, a Software Development
+                    student learning Frontend Development,
+                    JavaScript and web technologies.
+                </p>
 
-                <div>
-                    <p>Find membership plans that fit your business.</p>
-                    <button>Levels of Membership</button>
-                </div>
+            </section>
 
-                <div>
-                    <p>Get started with our application process.</p>
-                    <button>How to Join</button>
-                </div>
+            <section class="card">
 
-                <div>
-                    <p>Book an appointment with our team.</p>
-                    <button>Schedule a Meeting</button>
-                </div>
+                <h2>Student Photo</h2>
+
+                <img src="images/profile.jpg" alt="Student Photo" class="profile">
+
+            </section>
+
+        </div>
+
+        <section class="certificate">
+
+            <h2>Web Certificate Courses</h2>
+
+            <div class="button-container">
+
+                <button id="allBtn">
+                    All Courses
+                </button>
+
+                <button id="wddBtn">
+                    WDD Courses
+                </button>
+
+                <button id="cseBtn">
+                    CSE Courses
+                </button>
 
             </div>
 
-        </section>
+            <div id="course-container"></div>
 
-        <section class="banner">
-
-            <h3>
-                Curious about membership?
-                Hear directly from local businesses.
-            </h3>
-
-        </section>
-
-        <section class="videos">
-
-            <div class="video-placeholder">
-                Featured Member Testimonial Video
-            </div>
-
-            <div class="video-placeholder">
-                Chamber Community Video
-            </div>
+            <p id="creditTotal"></p>
 
         </section>
 
@@ -98,49 +119,29 @@
 
     <footer>
 
-        <div class="footer-top">
+        <div class="social-links">
 
-            <div class="footer-info">
+            <a href="https://www.linkedin.com/" target="_blank">
+                LinkedIn
+            </a>
 
-                <h3>Ibadan Chamber of Commerce</h3>
+            <a href="https://github.com/Shugar-ban" target="_blank">
+                GitHub
+            </a>
 
-                <p>10 Ring Road</p>
-
-                <p>Ibadan, Oyo State</p>
-
-                <p>info@ibadanchamber.org</p>
-
-                <p>(234) 800-123-4567</p>
-
-            </div>
-
-            <div class="footer-links">
-
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">Member Login</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Contact</a>
-
-            </div>
+            <a href="images/x-brands-solid-full.svg" target="_blank">
+                X
+            </a>
 
         </div>
 
-        <div class="footer-bottom">
+        <p>
+            &copy;
+            <span id="currentyear"></span>
+            Adeoye | Nigeria
+        </p>
 
-            <p>
-                &copy;
-                <span id="year"></span>
-                Ibadan Chamber of Commerce
-            </p>
-
-            <p>
-                WDD231 Course Project | Adeoye
-            </p>
-
-            <p id="lastModified"></p>
-
-        </div>
+        <p id="lastModified"></p>
 
     </footer>
 

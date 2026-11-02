@@ -1,0 +1,123 @@
+:root{
+    --primary:#1f2937;
+    --secondary:#f4f4f4;
+    --accent:#d97706;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:var(--primary);
+    color:white;
+    padding:1rem;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:50px;
+}
+
+#menuButton{
+    display:block;
+    width:100%;
+    margin-top:10px;
+}
+
+nav{
+    display:none;
+    flex-direction:column;
+}
+
+nav.open{
+    display:flex;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:.75rem;
+}
+
+.active{
+    background:#444;
+}
+
+main{
+    padding:1rem;
+}
+
+.card{
+    background:#ececec;
+    margin-bottom:1rem;
+    padding:1rem;
+}
+
+.card h2{
+    background:#222;
+    color:white;
+    text-align:center;
+    margin-top:0;
+    padding:.5rem;
+}
+
+.profile{
+    width:100%;
+    max-width:250px;
+    display:block;
+    margin:auto;
+}
+
+.certificate h2{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:.5rem;
+}
+
+.button-container{
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+    margin:1rem 0;
+}
+
+.button-container button{
+    padding:.75rem;
+}
+
+#course-container{
+    display:grid;
+    gap:1rem;
+}
+
+.course{
+    border:1px solid #ccc;
+    padding:1rem;
+    text-align:center;
+}
+
+.completed{
+    background:#b9fbc0;
+}
+
+footer{
+    background:#ddd;
+    text-align:center;
+    padding:1rem;
+}
+
+.social-links{
+    margin-bottom:1rem;
+}
+
+.social-links a{
+    margin:0 8px;
+}
