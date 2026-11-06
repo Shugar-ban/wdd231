@@ -1,4 +1,4 @@
-const url = "./latter-day-prophets.json";
+const url = "../latter-day-prophets.json";
 
 const cards = document.querySelector("#cards");
 
