@@ -1,0 +1,33 @@
+{
+    "familyName": "Adeoye",
+    "moveInDate": "2026-08-15",
+    "numberOfPeople": 5,
+    "visitedByBishopric": false,
+    "familyMembers": [
+        {
+            "name": "Samuel Adeoye",
+            "gender": "Male",
+            "birthdate": "1985-04-12"
+        },
+        {
+            "name": "Grace Adeoye",
+            "gender": "Female",
+            "birthdate": "1988-09-23"
+        },
+        {
+            "name": "David Adeoye",
+            "gender": "Male",
+            "birthdate": "2012-06-18"
+        },
+        {
+            "name": "Esther Adeoye",
+            "gender": "Female",
+            "birthdate": "2015-11-02"
+        },
+        {
+            "name": "Joshua Adeoye",
+            "gender": "Male",
+            "birthdate": "2019-01-27"
+        }
+    ]
+}
