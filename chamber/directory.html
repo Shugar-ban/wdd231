@@ -1,14 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- Basic Meta Data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iwo Chamber of Commerce | Business Directory</title>
+    <meta name="description"
+        content="Explore local businesses in the Iwo Chamber of Commerce Directory. Connect with members, discover services, and support local commerce.">
+    <meta name="author" content="Adeoye Ayodeji">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Timbuktu Chamber of Commerce Directory">
+    <meta property="og:description"
+        content="Find local businesses, services, and opportunities within the Timbuktu Chamber of Commerce Directory.">
+    <meta property="og:image" content="https://yourdomain.com/images/chamber-og-image.webp">
+    <meta property="og:url" content="https://yourdomain.com/directory.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="scripts/members.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="images/activity.svg"
+                    alt="Iwo Chamber of Commerce Logo"
+                    width="50"
+                    height="50">
+
+                <div>
+                    <h2>Iwo Chamber</h2>
+                    <p>of Commerce</p>
+                </div>
+            </div>
+
+            <!-- Dark Mode Icon -->
+            <div class="dark-toggle" aria-label="Toggle Dark Mode">
+                🌓
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" aria-label="Menu">
+                ☰
+            </button>
+
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="directory.html" class="active">
+                Directory
+            </a>
+
+            <a href="join.html">Join</a>
+
+            <a href="discover.html">Discover</a>
+
+        </nav>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <h1 class="page-title">
+            Business Directory
+        </h1>
+
+        <!-- Grid/List Controls -->
+        <section class="view-buttons">
+
+            <button id="gridBtn">
+                Grid
+            </button>
+
+            <button id="listBtn">
+                List
+            </button>
+
+        </section>
+
+        <!-- Dynamic Directory -->
+        <section class="directory grid">
+
+            <!-- JavaScript loads member cards here -->
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <!-- Contact Information -->
+            <section>
+                <h3>Iwo Chamber of Commerce</h3>
+
+                <p>10 Doodu Abimbola street</p>
+
+                <p>Iwo, Nigeria 999</p>
+
+                <p>info@iwocc.org</p>
+
+                <p>(223) 555-2300</p>
+            </section>
+
+            <!-- Social Media -->
+            <section class="social-links">
+
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.webp"
+                        alt="Facebook Icon"
+                        width="32"
+                        height="32">
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.webp"
+                        alt="Twitter Icon"
+                        width="32"
+                        height="32">
+                </a>
+
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="images/linkedin.webp"
+                        alt="LinkedIn Icon"
+                        width="32"
+                        height="32">
+                </a>
+
+            </section>
+
+            <!-- Course Information -->
+            <section>
+
+                <p>
+                    WDD231 Class Project
+                </p>
+
+                <p>
+                    Adeoye Ayodeji
+                </p>
+
+                <p>
+                    © <span id="currentyear"></span>
+                    Iwo Chamber of Commerce
+                </p>
+
+                <p>
+                    Last Modification:
+                    <span id="lastModified"></span>
+                </p>
+
+            </section>
+
+        </div>
+
+    </footer>
 
 </body>
-
 </html>

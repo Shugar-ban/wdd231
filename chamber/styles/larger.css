@@ -1,0 +1,70 @@
+/* ==================================
+   TABLET VIEW (640px and larger)
+================================== */
+@media screen and (min-width: 640px) {
+
+    .directory {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* ==================================
+   DESKTOP VIEW (768px and larger)
+================================== */
+@media screen and (min-width: 768px) {
+
+    #menu-btn {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .navigation a {
+        padding: .5rem 1rem;
+    }
+
+    .directory {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .directory.list .member-card {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+/* ==================================
+   LARGE DESKTOP (1024px and larger)
+================================== */
+@media screen and (min-width: 1024px) {
+
+    .member-card {
+        transition: transform .3s ease,
+                    box-shadow .3s ease;
+    }
+
+    .member-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 12px rgba(0,0,0,.2);
+    }
+
+    .directory {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 2rem;
+    }
+}

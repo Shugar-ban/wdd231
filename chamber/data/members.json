@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Iwo Tech Solutions",
+            "address": "10 Innovation Road, Iwo",
+            "phone": "(223) 555-1001",
+            "website": "https://iwotech.com",
+            "image": "tech.webp",
+            "membership": 3
+        },
+        {
+            "name": "Desert Market",
+            "address": "22 Main Street, Iwo",
+            "phone": "(223) 555-1002",
+            "website": "https://desertmarket.com",
+            "image": "market.webp",
+            "membership": 2
+        },
+        {
+            "name": "Sahara Logistics",
+            "address": "45 Trade Avenue, Iwo",
+            "phone": "(223) 555-1003",
+            "website": "https://saharalogistics.com",
+            "image": "logistics.webp",
+            "membership": 3
+        },
+        {
+            "name": "River View Hotel",
+            "address": "18 Tourism Road, Iwo",
+            "phone": "(223) 555-1004",
+            "website": "https://riverviewhotel.com",
+            "image": "hotel.webp",
+            "membership": 1
+        },
+        {
+            "name": "Iwo Printing",
+            "address": "7 Business Park, Iwo",
+            "phone": "(223) 555-1005",
+            "website": "https://Iwoprint.com",
+            "image": "printing.webp",
+            "membership": 2
+        },
+        {
+            "name": "Golden Sands Bank",
+            "address": "30 Finance Drive, Iwo",
+            "phone": "(223) 555-1006",
+            "website": "https://goldensandsbank.com",
+            "image": "bank.webp",
+            "membership": 3
+        },
+        {
+            "name": "Eco Energy Iwo",
+            "address": "51 Green Way, Iwo",
+            "phone": "(223) 555-1007",
+            "website": "https://ecoenergy.com",
+            "image": "energy.webp",
+            "membership": 1
+        }
+    ]
+}
