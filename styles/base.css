@@ -1,0 +1,61 @@
+/* General Page Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content */
+
+main {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Weather Card */
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #005f99;
+    margin-bottom: 10px;
+}
+
+/* Weather Icon */
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+/* Description */
+
+#description {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Temperature */
+
+#temperature {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #222;
+}
