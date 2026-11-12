@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iwo Chamber of Commerce | Home</title>
+
+    <meta name="description"
+        content="Welcome to the Iwo Chamber of Commerce. Discover local businesses, events, weather updates, and chamber membership opportunities.">
+
+    <meta name="author" content="Adeoye Ayodeji">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Iwo Chamber of Commerce Home">
+    <meta property="og:description"
+        content="Discover local businesses, events, and opportunities through the Iwo Chamber of Commerce.">
+    <meta property="og:image" content="images/chamber-og-image.webp">
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/spotlights.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+
+            <div class="logo-area">
+                <img src="images/activity.svg"
+                    alt="Iwo Chamber of Commerce Logo"
+                    width="50"
+                    height="50">
+
+                <div>
+                    <h2>Iwo Chamber</h2>
+                    <p>of Commerce</p>
+                </div>
+            </div>
+
+            <!-- Dark Mode Toggle -->
+            <div class="dark-toggle" aria-label="Toggle Dark Mode">
+                🌓
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" aria-label="Menu">
+                ☰
+            </button>
+
+        </div>
+
+        <nav class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <img
+            src="images/chamber-hero.webp"
+            alt="Commercial center of Iwo, Osun State">
+
+        <div class="hero-content">
+            <h1>Iwo Chamber of Commerce</h1>
+
+            <p>
+                Supporting local businesses and strengthening
+                economic growth in Iwo.
+            </p>
+
+            <a href="join.html" class="cta-button">
+                Join the Chamber
+            </a>
+        </div>
+
+    </section>
+
+    <!-- HOME GRID -->
+    <div class="home-grid">
+
+        <!-- EVENTS -->
+        <section class="events">
+            <h2>Current Events</h2>
+
+            <article>
+                <h3>Business Networking Summit</h3>
+
+                <p>
+                    Meet local entrepreneurs and investors while
+                    building valuable business connections.
+                </p>
+            </article>
+
+            <article>
+                <h3>Small Business Workshop</h3>
+
+                <p>
+                    Learn modern marketing and financial strategies
+                    for long-term business growth.
+                </p>
+            </article>
+        </section>
+
+        <!-- WEATHER -->
+        <section class="weather">
+
+            <h2>Weather</h2>
+
+            <p>
+                Current Temperature:
+                <span id="temperature">Loading...</span>
+            </p>
+
+            <p>
+                Conditions:
+                <span id="description">Loading...</span>
+            </p>
+
+            <h3>3-Day Forecast</h3>
+
+            <div id="forecast"></div>
+
+        </section>
+
+    </div>
+
+    <!-- MEMBER SPOTLIGHTS -->
+    <section class="spotlights">
+
+        <h2>Member Spotlights</h2>
+
+        <p>
+            Featured Gold and Silver members of the chamber.
+        </p>
+
+        <div id="spotlight-container"></div>
+
+    </section>
+
+    </main>
+
+    <footer>
+
+    <div class="footer-content">
+
+        <section>
+            <h3>Iwo Chamber of Commerce</h3>
+            <p>10 Doodu Abimbola Street</p>
+            <p>Iwo, Osun State, Nigeria</p>
+            <p>info@iwocc.org</p>
+            <p>(223) 555-2300</p>
+        </section>
+
+        <section class="social-links">
+
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+
+        </section>
+
+        <section>
+            <p>WDD231 Class Project</p>
+            <p>Adeoye Ayodeji</p>
+
+            <p>
+                © <span id="currentyear"></span>
+                Iwo Chamber of Commerce
+            </p>
+
+            <p>
+                Last Modification:
+                <span id="lastModified"></span>
+            </p>
+        </section>
+
+    </div>
+
+    </footer>
+</body>
+</html>
