@@ -121,3 +121,37 @@ footer{
 .social-links a{
     margin:0 8px;
 }
+
+/* Modal Container */
+dialog {
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+/* Backdrop */
+dialog::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+/* Close Button */
+dialog button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: .5rem 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+dialog button:hover {
+    background: #555;
+}

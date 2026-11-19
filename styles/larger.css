@@ -1,34 +1,39 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
-    header{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    #menuButton{
-        display:none;
+    #menuButton {
+        display: none;
     }
 
-    nav{
-        display:flex;
-        flex-direction:row;
-        gap:1rem;
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
     }
 
-    .content-grid{
-        display:grid;
-        grid-template-columns:2fr 1fr;
-        gap:1rem;
+    .content-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
     }
 
-    .button-container{
-        flex-direction:row;
-        justify-content:center;
+    .button-container {
+        flex-direction: row;
+        justify-content: center;
     }
 
-    #course-container{
+    #course-container {
         grid-template-columns:
-        repeat(auto-fit,minmax(200px,1fr));
+            repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    dialog {
+        max-width: 700px;
+        padding: 2rem;
     }
 }
