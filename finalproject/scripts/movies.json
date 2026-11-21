@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "Avatar",
+        "year": 2009,
+        "rating": 7.8,
+        "genre": "Sci-Fi",
+        "language": "English",
+        "image": "images/avatar.jpg",
+        "description": "A marine explores Pandora."
+    },
+    {
+        "id": 2,
+        "title": "Titanic",
+        "year": 1997,
+        "rating": 7.9,
+        "genre": "Romance",
+        "language": "English",
+        "image": "images/titanic.jpg",
+        "description": "A love story aboard the Titanic."
+    },
+    {
+        "id": 3,
+        "title": "Inception",
+        "year": 2010,
+        "rating": 8.8,
+        "genre": "Action",
+        "language": "English",
+        "image": "images/inception.jpg",
+        "description": "A thief enters dreams to steal secrets."
+    },
+    {
+        "id": 4,
+        "title": "Interstellar",
+        "year": 2014,
+        "rating": 8.6,
+        "genre": "Sci-Fi",
+        "language": "English",
+        "image": "images/interstellar.jpg",
+        "description": "A team travels through a wormhole."
+    },
+    {
+        "id": 5,
+        "title": "Black Panther",
+        "year": 2018,
+        "rating": 7.5,
+        "genre": "Action",
+        "language": "English",
+        "image": "images/blackpanther.jpg",
+        "description": "The king of Wakanda protects his nation."
+    },
+    {
+        "id": 6,
+        "title": "Joker",
+        "year": 2019,
+        "rating": 8.4,
+        "genre": "Drama",
+        "language": "English",
+        "image": "images/joker.jpg",
+        "description": "The rise of Gotham's famous villain."
+    },
+    {
+        "id": 7,
+        "title": "Dune",
+        "year": 2021,
+        "rating": 8.1,
+        "genre": "Sci-Fi",
+        "language": "English",
+        "image": "images/dune.jpg",
+        "description": "A battle for the desert planet Arrakis."
+    },
+    {
+        "id": 8,
+        "title": "Moana",
+        "year": 2016,
+        "rating": 7.7,
+        "genre": "Adventure",
+        "language": "English",
+        "image": "images/moana.jpg",
+        "description": "A young sailor saves her island."
+    },
+    {
+        "id": 9,
+        "title": "Frozen",
+        "year": 2013,
+        "rating": 7.3,
+        "genre": "Animation",
+        "language": "English",
+        "image": "images/frozen.jpg",
+        "description": "Two sisters save their kingdom."
+    },
+    {
+        "id": 10,
+        "title": "Doctor Strange",
+        "year": 2016,
+        "rating": 7.5,
+        "genre": "Fantasy",
+        "language": "English",
+        "image": "images/doctorstrange.jpg",
+        "description": "A surgeon discovers mystical powers."
+    },
+    {
+        "id": 11,
+        "title": "The Avengers",
+        "year": 2012,
+        "rating": 8.0,
+        "genre": "Action",
+        "language": "English",
+        "image": "images/avengers.jpg",
+        "description": "Earth's mightiest heroes unite."
+    },
+    {
+        "id": 12,
+        "title": "Top Gun Maverick",
+        "year": 2022,
+        "rating": 8.3,
+        "genre": "Adventure",
+        "language": "English",
+        "image": "images/topgun.jpg",
+        "description": "A veteran pilot trains a new generation."
+    },
+    {
+        "id": 13,
+        "title": "The Batman",
+        "year": 2022,
+        "rating": 7.9,
+        "genre": "Action",
+        "language": "English",
+        "image": "images/batman.jpg",
+        "description": "Batman investigates Gotham crimes."
+    },
+    {
+        "id": 14,
+        "title": "Spider-Man No Way Home",
+        "year": 2021,
+        "rating": 8.2,
+        "genre": "Superhero",
+        "language": "English",
+        "image": "images/spiderman.jpg",
+        "description": "Spider-Man faces villains from other universes."
+    },
+    {
+        "id": 15,
+        "title": "The Dark Knight",
+        "year": 2008,
+        "rating": 9.0,
+        "genre": "Action",
+        "language": "English",
+        "image": "images/darkknight.jpg",
+        "description": "Batman battles the Joker."
+    }
+]
