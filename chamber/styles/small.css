@@ -350,3 +350,34 @@ body.dark-mode h2,
 body.dark-mode h3 {
     color: var(--secondary-color);
 }
+
+.join-page {
+    display: block;
+}
+
+.membership-cards {
+    margin-top: 2rem;
+}
+
+.card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
