@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MovieVerse Hub Website Plan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieVerse Hub Site Plan</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #0A192F;
+            --secondary: #FFD700;
+            --light: #F4F4F4;
+            --text: #FFFFFF;
+            --accent: #E63946;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #07111f;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--secondary);
+            margin-bottom: .5rem;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--secondary);
+            margin-top: 1rem;
+        }
+
+        p,
+        li {
+            margin-bottom: .6rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: var(--secondary);
+            color: #000;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        .font-oswald {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.3rem;
+        }
+
+        .wireframe-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 1rem auto;
+            border: 3px solid var(--secondary);
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #07111f;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 20px;
+        }
+
+        a {
+            color: var(--secondary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MovieVerse Hub Site Plan</h1>
+        <p>Individual Project Website Planning Document</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Site Name</h2>
+
+            <p><strong>MovieVerse Hub</strong></p>
+
+            <p>
+                MovieVerse Hub is a movie discovery website that allows users
+                to explore, search, and learn about popular movies. The name
+                represents a central hub where movie lovers can access movie
+                information and entertainment content.
+            </p>
+
+            <p>
+                <strong>Optional Domain:</strong>
+                www.movieversehub.com
+            </p>
+        </section>
+
+        <section>
+            <h2>Site Purpose</h2>
+
+            <p>
+                MovieVerse Hub provides visitors with an interactive collection
+                of movies. Users can browse movie posters, view detailed
+                descriptions, watch trailers, and explore ratings and genres.
+            </p>
+
+            <ul>
+                <li>Display 15 movie listings from a JSON data source.</li>
+                <li>Allow users to search for movies.</li>
+                <li>Display movie information in modal popups.</li>
+                <li>Provide ratings and release dates.</li>
+                <li>Offer trailer links for selected movies.</li>
+                <li>Create a responsive viewing experience on all devices.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Scenarios</h2>
+
+            <h3>Scenario 1</h3>
+            <p>
+                Which movie has the highest rating and what is the movie about?
+            </p>
+
+            <h3>Scenario 2</h3>
+            <p>
+                Can I watch a trailer and read additional details before choosing a movie?
+            </p>
+
+            <h3>Scenario 3</h3>
+            <p>
+                Is there a search feature that allows me to quickly locate a specific movie?
+            </p>
+        </section>
+
+        <section>
+            <h2>Color Scheme</h2>
+
+            <table>
+                <tr>
+                    <th>Color</th>
+                    <th>Hex Code</th>
+                    <th>Usage</th>
+                </tr>
+
+                <tr>
+                    <td>Dark Blue</td>
+                    <td>#0A192F</td>
+                    <td>Main background color</td>
+                </tr>
+
+                <tr>
+                    <td>Gold</td>
+                    <td>#FFD700</td>
+                    <td>Headings, navigation, buttons</td>
+                </tr>
+
+                <tr>
+                    <td>White</td>
+                    <td>#FFFFFF</td>
+                    <td>Body text</td>
+                </tr>
+
+                <tr>
+                    <td>Light Gray</td>
+                    <td>#F4F4F4</td>
+                    <td>Cards and content sections</td>
+                </tr>
+
+                <tr>
+                    <td>Red</td>
+                    <td>#E63946</td>
+                    <td>Hover states and accents</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+
+            <h3 class="font-poppins">Poppins</h3>
+            <p>Used for headings and navigation menus.</p>
+
+            <h3 class="font-roboto">Roboto</h3>
+            <p>Used for body text and movie descriptions.</p>
+
+            <h3 class="font-oswald">Oswald</h3>
+            <p>Used for featured movie titles and highlights.</p>
+        </section>
+
+        <section>
+            <h2>Wireframe - Mobile View</h2>
+
+            <p>
+                The following image shows the mobile wireframe layout for
+                MovieVerse Hub.
+            </p>
+
+            <img src="../images/mobile.webp" alt="Mobile Wireframe for MovieVerse Hub" class="wireframe-image">
+        </section>
+
+        <section>
+            <h2>Wireframe - Desktop View</h2>
+
+            <p>
+                The following image shows the desktop wireframe layout for
+                MovieVerse Hub.
+            </p>
+
+            <img src="../images/desktop.webp" alt="Desktop Wireframe for MovieVerse Hub" class="wireframe-image">
+        </section>
+
+        <section>
+            <h2>Website Structure</h2>
+
+            <ul>
+                <li>Home Page</li>
+                <li>Movie Listings Section</li>
+                <li>Movie Search Feature</li>
+                <li>Featured Movie Banner</li>
+                <li>Movie Information Modal</li>
+                <li>Contact Page</li>
+                <li>Footer with social media links and project video</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Accessibility</h2>
+
+            <ul>
+                <li>Semantic HTML5 structure.</li>
+                <li>Alternative text for all images.</li>
+                <li>Keyboard-accessible navigation.</li>
+                <li>Sufficient color contrast.</li>
+                <li>Responsive design for various screen sizes.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>SEO Plan</h2>
+
+            <ul>
+                <li>Meaningful page titles.</li>
+                <li>Meta descriptions.</li>
+                <li>Proper heading hierarchy.</li>
+                <li>Optimized image alt text.</li>
+                <li>Search-friendly content structure.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Testing Plan</h2>
+
+            <ul>
+                <li>Validate HTML using W3C Validator.</li>
+                <li>Evaluate accessibility using WAVE.</li>
+                <li>Run Lighthouse performance audits.</li>
+                <li>Check color contrast with WebAIM.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Project Resources</h2>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript ES6</li>
+                <li>movies.json data source</li>
+                <li>Movie poster images</li>
+                <li>Search functionality</li>
+                <li>Modal popup functionality</li>
+                <li>Trailer video integration</li>
+                <li>Responsive web design techniques</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MovieVerse Hub | Individual Project Site Plan</p>
+    </footer>
+
+</body>
+
+</html>
