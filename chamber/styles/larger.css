@@ -33,8 +33,6 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-/* HOME PAGE */
-
     .home-grid {
         grid-template-columns: 2fr 1fr;
     }
@@ -66,5 +64,15 @@
         gap: 2rem;
         align-items: start;
     }
-}
 
+    @media (min-width:1025px) {
+
+        .cards {
+            display: grid;
+            grid-template-areas:
+                "one one two three"
+                "four five five six"
+                "seven seven eight eight";
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@media (min-width: 641px) {
+
+.cards {
+    display: grid;
+    grid-template-areas:
+      "one one two"
+      "three four four"
+      "five five six"
+      "seven eight eight";
+}
+
+}

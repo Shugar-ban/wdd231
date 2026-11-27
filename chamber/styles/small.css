@@ -1,6 +1,3 @@
-/* ==========================
-   ROOT VARIABLES
-========================== */
 :root {
     --primary-color: #003366;
     --secondary-color: #f4b400;
@@ -13,9 +10,6 @@
     --body-font: "Open Sans", sans-serif;
 }
 
-/* ==========================
-   RESET
-========================== */
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +23,6 @@ body {
     line-height: 1.6;
 }
 
-/* ==========================
-   HEADER
-========================== */
 header {
     background-color: var(--primary-color);
     color: white;
@@ -60,9 +51,6 @@ header {
     font-weight: bold;
 }
 
-/* ==========================
-   MOBILE NAVIGATION
-========================== */
 #menu-btn {
     background: none;
     border: none;
@@ -92,9 +80,6 @@ header {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* ==========================
-   MAIN
-========================== */
 main {
     max-width: 1200px;
     margin: auto;
@@ -111,10 +96,6 @@ h3 {
 .page-title {
     margin-bottom: 1rem;
 }
-
-/* =====================
-   HERO
-===================== */
 
 .hero {
     position: relative;
@@ -163,10 +144,6 @@ h3 {
     background: #d89b00;
 }
 
-/* =====================
-   HOMEPAGE GRID
-===================== */
-
 .home-grid {
     display: grid;
     gap: 1rem;
@@ -181,10 +158,6 @@ h3 {
     border-radius: 8px;
     border: 1px solid var(--border-color);
 }
-
-/* =====================
-   SPOTLIGHTS
-===================== */
 
 #spotlight-container {
     display: grid;
@@ -210,10 +183,6 @@ h3 {
     margin-bottom: .5rem;
 }
 
-/* =====================
-   WEATHER FORECAST
-===================== */
-
 .forecast-day {
     background: #eef3f8;
     padding: .75rem;
@@ -221,9 +190,6 @@ h3 {
     margin-bottom: .5rem;
 }
 
-/* ==========================
-   DIRECTORY BUTTONS
-========================== */
 .view-buttons {
     display: flex;
     justify-content: center;
@@ -244,9 +210,6 @@ h3 {
     color: white;
 }
 
-/* ==========================
-   DIRECTORY GRID
-========================== */
 .directory {
     display: grid;
     grid-template-columns: 1fr;
@@ -282,9 +245,6 @@ h3 {
     text-decoration: none;
 }
 
-/* ==========================
-   LIST VIEW
-========================== */
 .directory.list {
     display: flex;
     flex-direction: column;
@@ -298,9 +258,6 @@ h3 {
     width: 80px;
 }
 
-/* ==========================
-   FOOTER
-========================== */
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -324,9 +281,6 @@ footer {
     height: 32px;
 }
 
-/* ==========================
-   DARK MODE
-========================== */
 .dark-toggle {
     cursor: pointer;
     font-size: 1.4rem;
@@ -366,6 +320,51 @@ body.dark-mode h3 {
     border: 1px solid #ccc;
 
     animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.card1 {
+    grid-area: one;
+}
+
+.card2 {
+    grid-area: two;
+}
+
+.card3 {
+    grid-area: three;
+}
+
+.card4 {
+    grid-area: four;
+}
+
+.card5 {
+    grid-area: five;
+}
+
+.card6 {
+    grid-area: six;
+}
+
+.card7 {
+    grid-area: seven;
+}
+
+.card8 {
+    grid-area: eight;
+}
+
+.cards {
+    display: grid;
+    grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight";
 }
 
 @keyframes fadeIn {
