@@ -281,6 +281,9 @@ footer {
     height: 32px;
 }
 
+/* ==========================
+   DARK MODE
+========================== */
 .dark-toggle {
     cursor: pointer;
     font-size: 1.4rem;
@@ -322,51 +325,6 @@ body.dark-mode h3 {
     animation: fadeIn 1.5s ease-in-out forwards;
 }
 
-.card1 {
-    grid-area: one;
-}
-
-.card2 {
-    grid-area: two;
-}
-
-.card3 {
-    grid-area: three;
-}
-
-.card4 {
-    grid-area: four;
-}
-
-.card5 {
-    grid-area: five;
-}
-
-.card6 {
-    grid-area: six;
-}
-
-.card7 {
-    grid-area: seven;
-}
-
-.card8 {
-    grid-area: eight;
-}
-
-.cards {
-    display: grid;
-    grid-template-areas:
-        "one"
-        "two"
-        "three"
-        "four"
-        "five"
-        "six"
-        "seven"
-        "eight";
-}
-
 @keyframes fadeIn {
 
     from {
@@ -378,5 +336,109 @@ body.dark-mode h3 {
         opacity: 1;
         transform: translateY(0);
     }
+}
 
+/* ==========================
+   DISCOVER PAGE
+========================== */
+
+.visitor-message {
+    background-color: #eef3f8;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+#visit-message {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+
+    grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight";
+}
+
+.area1 {
+    grid-area: one;
+}
+
+.area2 {
+    grid-area: two;
+}
+
+.area3 {
+    grid-area: three;
+}
+
+.area4 {
+    grid-area: four;
+}
+
+.area5 {
+    grid-area: five;
+}
+
+.area6 {
+    grid-area: six;
+}
+
+.area7 {
+    grid-area: seven;
+}
+
+.area8 {
+    grid-area: eight;
+}
+
+.discover-grid .card {
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+.discover-grid figure {
+    margin: 0;
+}
+
+.discover-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.discover-grid h2 {
+    padding: 1rem 1rem .5rem;
+}
+
+.discover-grid address {
+    padding: 0 1rem;
+    font-style: italic;
+}
+
+.discover-grid p {
+    padding: 0 1rem;
+}
+
+.discover-grid button {
+    margin: 1rem;
+    padding: .75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
 }

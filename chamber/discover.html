@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Discover Iwo | Chamber of Commerce</title>
+
     <meta name="description" content="Discover interesting places in and around Iwo, Osun State.">
     <meta name="author" content="Adeoye Ayodeji">
 
@@ -22,176 +23,41 @@
 
     <header>
         <div class="header-container">
-            <img src="images/logo.webp" alt="Iwo Chamber of Commerce Logo" width="100" height="100">
-            <div>
-                <h1>Iwo Chamber of Commerce</h1>
-                <p>Supporting Local Business Growth</p>
-            </div>
-        </div>
-    </header>
 
-    <nav>
-        <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html" class="active">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
-        </ul>
-    </nav>
+            <div class="logo-area">
+                <img src="images/logo.webp" alt="Iwo Chamber of Commerce Logo">
+
+                <div>
+                    <h1>Iwo Chamber of Commerce</h1>
+                    <p>Supporting Local Business Growth</p>
+                </div>
+            </div>
+
+            <button id="menu-btn">&#9776;</button>
+
+        </div>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html" class="active">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
 
     <main>
 
-        <h1>Discover Iwo</h1>
+        <h1 class="page-title">Discover Iwo</h1>
 
         <section class="visitor-message">
             <h2>Visitor Information</h2>
             <p id="visit-message"></p>
         </section>
 
-        <section id="discover-grid" class="discover-grid">
-
-            <article class="card area1">
-                <h2>Osun Osogbo Sacred Grove</h2>
-
-                <figure>
-                    <img src="images/osun-grove.webp" alt="Osun Osogbo Sacred Grove" loading="lazy" width="300"
-                        height="200">
-                </figure>
-
-                <address>Osogbo, Osun State, Nigeria</address>
-
-                <p>
-                    A UNESCO World Heritage Site known for its sacred forest,
-                    traditional shrines, and annual cultural festival.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area2">
-                <h2>Erin Ijesha Waterfalls</h2>
-
-                <figure>
-                    <img src="images/erin-ijesha.webp" alt="Erin Ijesha Waterfalls" loading="lazy" width="300"
-                        height="200">
-                </figure>
-
-                <address>Oriade LGA, Osun State</address>
-
-                <p>
-                    A stunning natural attraction with seven levels of cascading
-                    waterfalls popular among tourists.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area3">
-                <h2>Iwo Central Mosque</h2>
-
-                <figure>
-                    <img src="images/iwo-mosque.webp" alt="Iwo Central Mosque" loading="lazy" width="300" height="200">
-                </figure>
-
-                <address>Iwo, Osun State</address>
-
-                <p>
-                    One of the most recognized landmarks in Iwo featuring
-                    impressive Islamic architecture.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area4">
-                <h2>Ayinkunugba Waterfalls</h2>
-
-                <figure>
-                    <img src="images/ayinkunugba.webp" alt="Ayinkunugba Waterfalls" loading="lazy" width="300"
-                        height="200">
-                </figure>
-
-                <address>Oke-Ila, Osun State</address>
-
-                <p>
-                    A hidden natural destination surrounded by beautiful scenery
-                    and rocky landscapes.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area5">
-                <h2>National Museum Osogbo</h2>
-
-                <figure>
-                    <img src="images/museum.webp" alt="National Museum Osogbo" loading="lazy" width="300" height="200">
-                </figure>
-
-                <address>Osogbo, Osun State</address>
-
-                <p>
-                    Features cultural artifacts and exhibits showcasing the rich
-                    history of the Yoruba people.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area6">
-                <h2>Opa Reservoir</h2>
-
-                <figure>
-                    <img src="images/opa-reservoir.webp" alt="Opa Reservoir" loading="lazy" width="300" height="200">
-                </figure>
-
-                <address>Ile-Ife, Osun State</address>
-
-                <p>
-                    A beautiful reservoir that serves as both a water source and
-                    a recreational attraction.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area7">
-                <h2>Obafemi Awolowo University Zoo</h2>
-
-                <figure>
-                    <img src="images/oau-zoo.webp" alt="OAU Zoo" loading="lazy" width="300" height="200">
-                </figure>
-
-                <address>Ile-Ife, Osun State</address>
-
-                <p>
-                    A family-friendly destination featuring wildlife and
-                    educational exhibits.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-            <article class="card area8">
-                <h2>Olumirin Resort</h2>
-
-                <figure>
-                    <img src="images/olumirin.webp" alt="Olumirin Resort" loading="lazy" width="300" height="200">
-                </figure>
-
-                <address>Erin-Ijesha, Osun State</address>
-
-                <p>
-                    A popular resort destination providing lodging and access to
-                    nearby natural attractions.
-                </p>
-
-                <button>Learn More</button>
-            </article>
-
-        </section>
+        <section id="discover-grid" class="discover-grid"></section>
 
     </main>
+
     <footer>
         <p>&copy; 2026 Iwo Chamber of Commerce</p>
         <p>WDD 231 Chamber Project</p>

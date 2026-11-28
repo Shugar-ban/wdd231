@@ -65,14 +65,22 @@
         align-items: start;
     }
 
-    @media (min-width:1025px) {
+    .discover-grid {
 
-        .cards {
-            display: grid;
-            grid-template-areas:
-                "one one two three"
-                "four five five six"
-                "seven seven eight eight";
-        }
+        grid-template-columns:
+            repeat(4, 1fr);
+
+        grid-template-areas:
+            "one one two three"
+            "four five five six"
+            "seven seven eight eight";
+    }
+
+    .discover-grid img:hover {
+
+        transform: scale(1.08);
+
+        box-shadow:
+            0 0 15px rgba(0, 0, 0, .3);
     }
 }
